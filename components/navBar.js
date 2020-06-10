@@ -13,7 +13,8 @@ const NavBar = props => {
   const links = [
     { href: '/tyot', label: 'Työt' },
     { href: '/palvelut', label: 'Palvelut' },
-    { href: '/kahville', label: 'Kahville' }
+    { href: '/kahville', label: 'Kahville' },
+    { href: '/tilaa-video', label: 'Tilaa video täältä *', color: 'red' }
   ]
  
 
@@ -29,7 +30,7 @@ const NavBar = props => {
               <Link href={link.href}>
                 <a
                   className={`${props.main && 'black-theme'}  ${router.pathname === link.href && 'activeSelected'} `}
-                  style={{ color: props.theme }}>
+                  style={{ color: link.color? link.color : props.theme }}>
                   {link.label}
                 </a>
               </Link>

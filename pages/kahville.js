@@ -98,7 +98,7 @@ class Kahville extends React.Component {
                     <div className="container">
                         <header className="text-center   mb-5">
                             <h1>Minkä tarinan sinä haluat kertoa?</h1>
-                            <p>Ota yhteyttä ja tule kanssamme kahville Turussa</p>
+                            <p>Ota yhteyttä ja tule kanssamme kahville Turkuun</p>
                         </header>
                         {/* <h2 className="text-center" >Toteutetaan unelmasi yhdessä</h2> */}
                         <form onSubmit={this.sendForm.bind(this)}  >
@@ -138,7 +138,8 @@ class Kahville extends React.Component {
                           
                         </form>
                         <div className="text-center mt-5 mb-5">
-                            <p>Tai soita meille</p>
+                            <p>Voit myös soitaa meille</p>
+                            {/* <p><a href="tel:+358442921296">+358 44 292 1296</a></p> */}
                         </div>
                         <div className="row mt-5 mb-5 text-center position-relative">
                             <div class=" col-sm-6 col-md-6 people">

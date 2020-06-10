@@ -33,6 +33,30 @@
 	},
 	{
 		"id": 2,
+		"name": "Nurmiryhmät etänä",
+		"showreel": false,
+		"description": "Toteutimme ProAgrialle lyhyen somevideon, jossa havainnollistettiin nurmiryhmien etätapaaminen.",
+		"url": "proagria",
+		"video_title": "Nurmiryhmät etänä",
+		"customer": "Proagria",
+		"created_at": "2019-10-22T11:33:19.620Z",
+		"updated_at": "2019-10-22T15:23:30.947Z",
+		"video_url":"https://www.youtube.com/watch?v=q7uX5WBd6XQ",
+		"video_poster_url":"../static/proagria_short.mp4",
+		"video_poster_image_url":"../static/proagria-poster.jpg",
+		"prosess": [
+			{
+				"id": 1,
+				"step": "Videokuvaus"
+			},
+			{
+				"id": 2,
+				"step": "Editointi"
+			}
+		]
+	},
+	{
+		"id": 3,
 		"showreel": false,
 		"name": "Petrin tarina",
 		"description": "Kerroimme Metsurityöt Oksasen tarinan videolla.",
@@ -60,7 +84,7 @@
 		]
 	},
 	{
-		"id": 3,
+		"id": 4,
 		"showreel": false,
 		"name": "Metsurisi, Petri",
 		"description": "Metsurityöt Oksanen halusi lisää näkyvyyttä Facebookissa, joten teimme hänelle somevideon. Video on myös tulossa metsurityöt.fi sivuille.",
@@ -88,7 +112,7 @@
 		]
 	},
 	{
-		"id": 4,
+		"id": 5,
 		"name": "Yhteisön voima",
 		"showreel": false,
 		"description": "Tuotimme Turku Frontend tapaamisille esittelyvideon.",

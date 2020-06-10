@@ -9,6 +9,7 @@ import "../static/test.css"
 import "../static/contact.css"
 import "../static/palvelut.css"
 import "../static/privacy.css"
+import "../static/webshop.css"
 
 
 const HeadMod = props => (
@@ -20,10 +21,12 @@ const HeadMod = props => (
         </title>
         <meta name="description" content={props.description ? props.description : "Awarampaa videotuotantoa koko Suomen alueella"}/>
         <meta name="image" content="../static/Awara_facebook.png" />
+
         {/* <!-- Schema.org for Google --> */}
-        <meta itemprop="name" content={props.title} />
+        {/* <meta itemprop="name" content={props.title} />
         <meta itemprop="description" content={props.description ? props.description : "Awarampaa videotuotantoa koko Suomen alueella"} />
-        <meta itemprop="image" content="../static/Awara_facebook.png" />
+        <meta itemprop="image" content="../static/Awara_facebook.png" /> */}
+        
         {/* <!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
         <meta name="og:title" content= {props.title} />
         <meta name="og:description" content={props.description ? props.description : "Awarampaa videotuotantoa koko Suomen alueella"} />

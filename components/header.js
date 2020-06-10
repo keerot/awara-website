@@ -67,6 +67,7 @@ class Header extends React.Component {
             <>
                 <Nav theme={black} main={true} />
                 <div className={`homepage-video homepage-video-height   ${full || ''} `}  >
+
                     <div class={`header-video-wrapper-home ${heightAuto || ''}`}>
                         <div className={`video-reel-loop ${displayNone || ''}`}>
                             <div>
@@ -77,6 +78,7 @@ class Header extends React.Component {
                                 </video>
                             </div>
                         </div>
+
                        <VideoRepeater
                        displayBlock={displayBlock}
                        displayNone={displayNone}
@@ -86,13 +88,16 @@ class Header extends React.Component {
                        videoUrl={'https://www.youtube.com/watch?v=ubz-M1ZmPVo&feature=youtu.be'}
                        videoPosterImageUrl={'../static/showreel-poster.jpg'}
                        />
+                       
                         <div className={`homepage-content ${displayNone || ''}`}>
-                            <div>
+                            <div className="text-white">
                                 <h1>Olemme visuaalisia <b>tarinankertojia</b></h1>
                                 <a onClick={this.toggle.bind(this)} className={`video-play ${displayNone || ''}`} data-video="video-reel" data-preview="video-reel-preview">
                                     <span>
                                     </span>
+                                  
                                 </a>
+                                <a><p className="showreel">Katso showreel</p> </a>
                             </div>
                         </div>
                     </div>

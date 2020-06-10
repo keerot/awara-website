@@ -192,7 +192,7 @@ html, body { height: 100%; }
 }
 
 .video-reel-loop {
-    display: none;
+    /* display: none; REMOVE MAYBE */ 
 }
 .video-reel-full {
     position: relative;
@@ -563,4 +563,16 @@ form p {
 .bnt-custom:hover{
     background: black;
     color:white;
+}
+.bnt-custom-big{
+    width: 260px;
+}
+.bnt-custom:focus{
+    outline: none;
+}
+
+.showreel{
+    width: 160px;
+    border: 1px solid white;
+    padding: 5px;
 }

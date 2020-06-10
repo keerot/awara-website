@@ -1,0 +1,110 @@
+.packages{
+     
+    box-shadow: 20px 20px 60px rgba(2, 8, 22, 0.10);
+    /* /* margin: 5px; */
+    padding: 2px; 
+    border: 1px solid #ff0000;
+    min-height: 301px;
+}
+
+.first-packages{
+    height: 28em;
+}
+
+.second-packages{
+    height: 33em;
+
+}
+
+.third-packages{
+    height: 38em;
+
+}
+
+
+
+
+@media (max-width: 650px){
+
+
+    .orderForm{
+        width: 100% !important;
+    }
+}
+
+.orderForm{
+    /* background: #333333f5; */
+    background: white;
+    box-shadow: 0 0 0 0 #000;
+     overflow-x: hidden;
+    position: fixed;
+     right: 0;
+    padding: 60px;
+    top: 0;
+    transform: translateX(114%);
+    transition: all 0.3s cubic-bezier(0.64, 0.045, 0.35, 1);
+    width: 50%;
+    z-index: 100000;
+    height: 100%;
+    max-width: 750px;
+    ;
+}
+
+.orderForm .close{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 93.33333px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 93.33333px;
+}
+
+
+.orderForm .close span:first-child {
+    transform: rotate(45deg);
+    left: 10px;
+}
+.orderForm .close span:last-child {
+    transform: rotate(-45deg);
+    right: 10px;
+}
+
+.orderForm .close span {
+    background: black;
+    display: block;
+    height: 2px;
+    margin: 2px 0;
+    position: relative;
+    transition: transform 0.25s cubic-bezier(0.72, 0.01, 0.28, 0.98);
+    width: 20px;
+}
+
+
+
+
+.selected_shop{
+    background: black !important;
+    color: white !important;
+}
+
+.order_true{
+    transform: translateY(-0%);
+}
+.orderDetail{
+    border: 1px solid white;
+}
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity: 0.85 !important;
+}

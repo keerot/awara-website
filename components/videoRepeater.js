@@ -11,7 +11,7 @@ const VideoRepeater = ({ displayBlock, displayNone, toggle, autoPlay, overText=f
     return (
 
         <>
-            <div className={`video-withd mt-3       ${displayBlock || ''} ${displayNone || 'd-lg-none'}`}>
+            <div className={`video-withd mt-3       ${displayBlock || ''} ${displayNone || 'd-none'}`}>
                 <div className="wrapper-video">
                     <img
                         src={videoPosterImageUrl}
